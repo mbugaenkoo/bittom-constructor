@@ -1,6 +1,4 @@
-:root {
-    --icon-size: 12px;
-}
+
 .icon {
     display: inline-block;
     height: calc(var(--icon-size)* 3);
@@ -9,19 +7,19 @@
 }
 
 .icon-bull {
-    background-image: url(../assets/img/icon-bull.png);
+    background-image: url(assets/img/icon-bull.png);
 }
 .icon-btc {
-    background-image: url(../assets/img/icon-btc.png);
+    background-image: url(assets/img/icon-btc.png);
 }
 .icon-pen {
-    background-image: url(../assets/img/icon-pen.png);
+    background-image: url(assets/img/icon-pen.png);
 }
 .icon-horce{
-    background-image: url(../assets/img/icon-horce.png);
+    background-image: url(assets/img/icon-horce.png);
 }
 .icon-moun {
-    background-image: url(../assets/img/icon-moun.png);
+    background-image: url(assets/img/icon-moun.png);
 }
 
 .icon-sm {
