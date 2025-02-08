@@ -1,0 +1,195 @@
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    padding: 16px 24px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-primary{
+    border-color: #4dabf5;
+    background-color: #4dabf5;
+    color: #fff;
+    &:hover {
+        border-color: #2196f3;
+        background-color: #2196f3;
+    }
+    &:focus,
+    &:active {
+        border-color: #1769aa;
+        background-color:#1769aa;
+        box-shadow: 0 0 3px 2px #1769aa;
+    }
+    &.btn-outline{
+        color: #1769aa;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.btn-secondary{
+    border-color: #ed4b82;
+    background-color: #ed4b82;
+    color: #fff;
+    &:hover {
+        border-color: #e91e63;
+        background-color: #e91e63;
+    }
+    &:focus,
+    &:active {
+        border-color: #a31545;
+        background-color:#a31545;
+        box-shadow: 0 0 3px 2px #a31545;
+    }
+    &.btn-outline{
+        color: #a31545;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.btn-success{
+    border-color: #6fbf73;
+    background-color: #6fbf73;
+    color: #fff;
+    &:hover {
+        border-color: #4caf50;
+        background-color: #4caf50;
+    }
+    &:focus,
+    &:active {
+        border-color: #357a38;
+        background-color:#357a38;
+        box-shadow: 0 0 3px 2px #357a38;
+    }
+    &.btn-outline{
+        color: #357a38;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.btn-danger{
+    border-color: #f6685e;
+    background-color: #f6685e;
+    color: #fff;
+    &:hover {
+        border-color: #f44336;
+        background-color: #f44336;
+    }
+    &:focus,
+    &:active {
+        border-color: #aa2e25;
+        background-color:#aa2e25;
+        box-shadow: 0 0 3px 2px #aa2e25;
+    }
+    &.btn-outline{
+        color: #aa2e25;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.btn-warning{
+    border-color: #ffef62;
+    background-color: #ffef62;
+    color: #fff;
+    &:hover {
+        border-color: #ffeb3b;
+        background-color: #ffeb3b;
+    }
+    &:focus,
+    &:active {
+        border-color: #b2a429;
+        background-color:#b2a429;
+        box-shadow: 0 0 3px 2px #b2a429;
+    }
+    &.btn-outline{
+        color: #b2a429;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.btn-info{
+    border-color: #35baf6;
+    background-color: #35baf6;
+    color: #fff;
+    &:hover {
+        border-color: #03a9f4;
+        background-color: #03a9f4;
+    }
+    &:focus,
+    &:active {
+        border-color: #0276aa;
+        background-color:#0276aa;
+        box-shadow: 0 0 3px 2px #0276aa;
+    }
+    &.btn-outline{
+        color: #0276aa;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.btn-light{
+    border-color:  #e7e7e7;
+    background-color: #e7e7e7;
+    color: #000000;
+    &:hover{
+        border-color: #c0c0c0;
+        background-color: #c0c0c0;
+    }
+    &:focus,
+    &:active{
+        border-color: #c0c0c0;
+        background-color: #c0c0c0;
+        box-shadow: 0 0 3px 2px #c0c0c0;
+    }
+    &.btn-outline{
+        color: #000000;
+        &:hover {
+            color: #000000;
+        }
+    }
+}
+.btn-dark{
+    background-color: #000000;
+    color: #fff;
+    &:hover{
+        border-color: #333333;
+        background-color: #333333;
+    }
+    &:focus,
+    &:active{
+        border-color:  #333333;
+        background-color: #333333;
+        box-shadow: 0 0 3px 2px #333333;
+    }
+    &.btn-outline{
+        color: #333333;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.btn-outline {
+    border-width: 2px solid;
+    background: transparent;
+}
+.btn-roundet {
+    border-radius: 25px;
+}
+.btn-md {
+    border-radius: 37px;
+    font-size: 20px;
+    padding: 24px 36px;
+}
+.btn-lg {
+    border-radius: 45px;
+    font-size: 22px;
+    padding: 36px 48px;
+}
