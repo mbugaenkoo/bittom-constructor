@@ -1,4 +1,6 @@
-
+:root {
+    --icon-size: 12px;
+}
 .icon {
     display: inline-block;
     height: calc(var(--icon-size)* 3);
