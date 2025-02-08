@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+body {
+    font-size: 16px;
+}
+.container {
+    max-width: 1400px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+.example {
+    padding: 100px 0;
+    margin: 100px auto;
+}
+.example-title {
+    font-size: 36px;
+    margin-bottom: 48px;
+}
+.d-flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+
+.g-1 { 
+    gap: 12px;
+}
+.g-2 { 
+    gap: 24px;
+}
+.g-3 { 
+    gap: 36px;
+}
+.g-4 { 
+    gap: 48px;
+}
+.g-5 { 
+    gap: 60px;
+}
+
+.mb-1 {
+    margin-bottom: 12px;
+}
+.mb-2 {
+    margin-bottom: 24px;
+}

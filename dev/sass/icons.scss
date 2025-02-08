@@ -1,0 +1,46 @@
+:root {
+    --icon-size: 12px;
+}
+.icon {
+    display: inline-block;
+    height: calc(var(--icon-size)* 3);
+    width: calc(var(--icon-size)* 3);
+    background: center/contain no-repeat transparent;
+}
+
+.icon-bull {
+    background-image: url(../assets/img/icon-bull.png);
+}
+.icon-btc {
+    background-image: url(../assets/img/icon-btc.png);
+}
+.icon-pen {
+    background-image: url(../assets/img/icon-pen.png);
+}
+.icon-horce{
+    background-image: url(../assets/img/icon-horce.png);
+}
+.icon-moun {
+    background-image: url(../assets/img/icon-moun.png);
+}
+
+.icon-sm {
+    height: calc(var(--icon-size)* 2);
+    width: calc(var(--icon-size)* 2);
+}
+.icon-md {
+    height: calc(var(--icon-size)* 3);
+    width: calc(var(--icon-size)* 3);
+}
+.icon-lg {
+    height: calc(var(--icon-size)* 4);
+    width: calc(var(--icon-size)* 4);
+}
+.icon-xl {
+    height: calc(var(--icon-size)* 5);
+    width: calc(var(--icon-size)* 5);
+  }
+.icon-xxl {
+    height: calc(var(--icon-size)* 6);
+    width: calc(var(--icon-size)* 6);
+}
